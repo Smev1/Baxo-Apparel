@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAXO | Contemporary Clothing Brand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="root">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div class="container navbar-container">
+          <div class="logo">BAXO</div>
+          
+          <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#collection" class="nav-link">Collection</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#lookbook" class="nav-link">Lookbook</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+          
+          <div class="nav-actions">
+            <button class="icon-btn shopping-bag-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            </button>
+            <button class="icon-btn menu-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <div class="container mobile-menu-container">
+            <a href="#home" class="mobile-menu-link">Home</a>
+            <a href="#collection" class="mobile-menu-link">Collection</a>
+            <a href="#about" class="mobile-menu-link">About</a>
+            <a href="#lookbook" class="mobile-menu-link">Lookbook</a>
+            <a href="#contact" class="mobile-menu-link">Contact</a>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-bg">
+          <img 
+            src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+            alt="Fashion model" 
+            class="hero-img"
+          />
+          <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container hero-content">
+          <h1 class="hero-title">REDEFINE YOUR STYLE</h1>
+          <p class="hero-subtitle">
+            Baxo brings you the latest in contemporary fashion with a focus on minimalist design and premium quality.
+          </p>
+          <a href="#collection" class="btn btn-primary">
+            Explore Collection 
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </section>
+      
+      <!-- Collection Section -->
+      <section id="collection" class="collection">
+        <div class="container">
+          <h2 class="section-title">LATEST COLLECTION</h2>
+          
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-image-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1036&q=80" 
+                  alt="Minimalist Jacket" 
+                  class="product-image"
+                />
+              </div>
+              <div class="product-overlay">
+                <h3 class="product-title">Minimalist Jacket</h3>
+                <p class="product-price">$189</p>
+                <button class="btn btn-sm btn-light">Add to Cart</button>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1578681994506-b8f463449011?ixlib=rb-1.2.1&auto=format&fit=crop&w=1034&q=80" 
+                  alt="Urban Hoodie" 
+                  class="product-image"
+                />
+              </div>
+              <div class="product-overlay">
+                <h3 class="product-title">Urban Hoodie</h3>
+                <p class="product-price">$120</p>
+                <button class="btn btn-sm btn-light">Add to Cart</button>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1064&q=80" 
+                  alt="Essential Tee" 
+                  class="product-image"
+                />
+              </div>
+              <div class="product-overlay">
+                <h3 class="product-title">Essential Tee</h3>
+                <p class="product-price">$65</p>
+                <button class="btn btn-sm btn-light">Add to Cart</button>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80" 
+                  alt="Tailored Pants" 
+                  class="product-image"
+                />
+              </div>
+              <div class="product-overlay">
+                <h3 class="product-title">Tailored Pants</h3>
+                <p class="product-price">$145</p>
+                <button class="btn btn-sm btn-light">Add to Cart</button>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1548126032-079a0fb0099d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1064&q=80" 
+                  alt="Signature Coat" 
+                  class="product-image"
+                />
+              </div>
+              <div class="product-overlay">
+                <h3 class="product-title">Signature Coat</h3>
+                <p class="product-price">$275</p>
+                <button class="btn btn-sm btn-light">Add to Cart</button>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1516762689617-e1cffcef479d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1054&q=80" 
+                  alt="Modern Cardigan" 
+                  class="product-image"
+                />
+              </div>
+              <div class="product-overlay">
+                <h3 class="product-title">Modern Cardigan</h3>
+                <p class="product-price">$110</p>
+                <button class="btn btn-sm btn-light">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center">
+            <a href="#" class="btn btn-outline">
+              View All Products 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-content">
+              <h2 class="section-title">ABOUT BAXO</h2>
+              <p class="about-text">
+                Founded in 2020, Baxo is a contemporary clothing brand that focuses on minimalist design, 
+                premium materials, and sustainable production methods. Our pieces are designed to be timeless, 
+                versatile, and of the highest quality.
+              </p>
+              <p class="about-text">
+                We believe that fashion should be both beautiful and responsible. That's why we work with ethical 
+                manufacturers and use eco-friendly materials whenever possible. Each Baxo piece is crafted to last, 
+                reducing waste and environmental impact.
+              </p>
+              <a href="#" class="text-link">
+                Learn more about our story 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+            <div class="about-image-container">
+              <img 
+                src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80" 
+                alt="Baxo design studio" 
+                class="about-image"
+              />
+              <div class="about-badge">
+                <span class="about-badge-number">5+</span>
+                Years of Excellence
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Lookbook Section -->
+      <section id="lookbook" class="lookbook">
+        <div class="container">
+          <h2 class="section-title">LOOKBOOK</h2>
+          
+          <div class="lookbook-grid">
+            <div class="lookbook-item lookbook-item-large">
+              <img 
+                src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&auto=format&fit=crop&w=962&q=80" 
+                alt="Lookbook image 1" 
+                class="lookbook-image"
+              />
+            </div>
+            <div class="lookbook-item">
+              <img 
+                src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80" 
+                alt="Lookbook image 2" 
+                class="lookbook-image"
+              />
+            </div>
+            <div class="lookbook-item">
+              <img 
+                src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1073&q=80" 
+                alt="Lookbook image 3" 
+                class="lookbook-image"
+              />
+            </div>
+            <div class="lookbook-item">
+              <img 
+                src="https://images.unsplash.com/photo-1509631179647-0177331693ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=988&q=80" 
+                alt="Lookbook image 4" 
+                class="lookbook-image"
+              />
+            </div>
+            <div class="lookbook-item">
+              <img 
+                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80" 
+                alt="Lookbook image 5" 
+                class="lookbook-image"
+              />
+            </div>
+            <div class="lookbook-item">
+              <img 
+                src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
+                alt="Lookbook image 6" 
+                class="lookbook-image"
+              />
+            </div>
+            <div class="lookbook-item">
+              <img 
+                src="https://images.unsplash.com/photo-1550614000-4895a10e1bfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80" 
+                alt="Lookbook image 7" 
+                class="lookbook-image"
+              />
+            </div>
+            <div class="lookbook-item lookbook-item-large">
+              <img 
+                src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80" 
+                alt="Lookbook image 8" 
+                class="lookbook-image"
+              />
+            </div>
+          </div>
+          
+          <div class="text-center">
+            <a href="#" class="btn btn-outline">
+              View Full Lookbook 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Newsletter Section -->
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter-container">
+            <h2 class="section-title">JOIN THE MOVEMENT</h2>
+            <p class="newsletter-text">
+              Subscribe to our newsletter to receive exclusive updates, early access to new collections, and special offers.
+            </p>
+            <form class="newsletter-form">
+              <input 
+                type="email" 
+                placeholder="Your email address" 
+                class="newsletter-input"
+              />
+              <button type="submit" class="btn btn-primary newsletter-btn">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h2 class="section-title">CONTACT US</h2>
+              <p class="contact-text">
+                Have questions about our products or brand? We'd love to hear from you. Reach out to us using the form or contact information.
+              </p>
+              
+              <div class="contact-details">
+                <div class="contact-item">
+                  <h3 class="contact-item-title">Visit Our Flagship Store</h3>
+                  <p class="contact-item-text">123 Fashion Avenue, New York, NY 10001</p>
+                </div>
+                <div class="contact-item">
+                  <h3 class="contact-item-title">Email Us</h3>
+                  <p class="contact-item-text">info@baxoclothing.com</p>
+                </div>
+                <div class="contact-item">
+                  <h3 class="contact-item-title">Call Us</h3>
+                  <p class="contact-item-text">+1 (555) 123-4567</p>
+                </div>
+              </div>
+              
+              <div class="social-links">
+                <a href="#" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                </a>
+                <a href="#" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                </a>
+                <a href="#" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+              </div>
+            </div>
+            
+            <div class="contact-form-container">
+              <form class="contact-form">
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" id="name" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" id="subject" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea id="message" rows="4" class="form-input"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-brand">
+              <div class="logo">BAXO</div>
+              <p class="footer-text">
+                Contemporary clothing with a focus on minimalist design, premium materials, and sustainable production.
+              </p>
+            </div>
+            
+            <div class="footer-links-container">
+              <div class="footer-links">
+                <h3 class="footer-links-title">Shop</h3>
+                <ul class="footer-links-list">
+                  <li><a href="#" class="footer-link">New Arrivals</a></li>
+                  <li><a href="#" class="footer-link">Bestsellers</a></li>
+                  <li><a href="#" class="footer-link">Collections</a></li>
+                  <li><a href="#" class="footer-link">Accessories</a></li>
+                </ul>
+              </div>
+              
+              <div class="footer-links">
+                <h3 class="footer-links-title">Company</h3>
+                <ul class="footer-links-list">
+                  <li><a href="#" class="footer-link">About Us</a></li>
+                  <li><a href="#" class="footer-link">Sustainability</a></li>
+                  <li><a href="#" class="footer-link">Careers</a></li>
+                  <li><a href="#" class="footer-link">Press</a></li>
+                </ul>
+              </div>
+              
+              <div class="footer-links">
+                <h3 class="footer-links-title">Support</h3>
+                <ul class="footer-links-list">
+                  <li><a href="#" class="footer-link">FAQ</a></li>
+                  <li><a href="#" class="footer-link">Shipping</a></li>
+                  <li><a href="#" class="footer-link">Returns</a></li>
+                  <li><a href="#" class="footer-link">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <p class="copyright">© 2025 Baxo. All rights reserved.</p>
+            <div class="footer-legal">
+              <a href="#" class="footer-legal-link">Privacy Policy</a>
+              <a href="#" class="footer-legal-link">Terms of Service</a>
+              <a href="#" class="footer-legal-link">Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
